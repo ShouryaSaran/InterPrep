@@ -1,20 +1,36 @@
-.button{
-    color: whitesmoke;
-    border: none;
-    outline: none;
-    padding-inline: 1rem;
-    padding-block: 0.6rem;
-    border-radius: 1rem;
-    cursor: pointer;
-    
-    transition: all 0.3s ease-in-out;
-    
-    &.primary-button{
-        background-color: rgb(255, 17, 69);
-    }
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  padding: 0.85rem 1.25rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease;
+  user-select: none;
 
-    &:active{
-        transform: scale(0.9);
-    }
+  &.primary-button {
+    background: linear-gradient(135deg, var(--primary), var(--primary-2));
+    color: white;
+    box-shadow: 0 12px 30px rgba(13, 78, 235, 0.32);
+  }
+
+  &.ghost {
+    background: rgba(255, 255, 255, 0.6);
+    color: var(--text);
+    border: 1px solid rgba(15, 23, 42, 0.12);
+    backdrop-filter: blur(10px);
+  }
+
+  &:hover {
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
 }
 

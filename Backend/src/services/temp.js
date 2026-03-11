@@ -1,11 +1,11 @@
 const resume = `
-SHOURYA SARAN
+Bhuvan Bham
 Mumbai, Maharashtra, India
 Phone: +91 XXXXX XXXXX
-Email: shourya@email.com
+Email: bhuvan@email.com
 
-GitHub: github.com/shouryasaran
-LinkedIn: linkedin.com/in/shouryasaran
+GitHub: github.com/bhuvan
+LinkedIn: linkedin.com/in/bhuvan
 
 OBJECTIVE
 

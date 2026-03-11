@@ -1,6 +1,6 @@
 @keyframes pulse {
-  0%, 100% { box-shadow: 0 0 5px rgba(196, 19, 34, 0.452) }
-  50%       { box-shadow: 0 0 20px rgba(211, 9, 69, 0.8) }
+  0%, 100% { box-shadow: 0 0 5px rgba(23, 87, 204, 0.452) }
+  50%       { box-shadow: 0 0 20px rgba(23, 87, 204, 0.8) }
 }
 
 main{
@@ -42,14 +42,15 @@ main{
             }
 
             &:focus {
-              border: 1px solid #d3124c;
+              border: 1px solid rgba(23, 87, 204, 0.452);
               animation: pulse 1.5s infinite;
             }
         }
     }
 
     a{
-        color: rgb(255, 17, 69);
+        font-weight: bold;
+        color: rgb(18, 87, 214);
         text-decoration: none;
     }
 }
