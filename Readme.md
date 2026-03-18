@@ -68,7 +68,6 @@ A full-stack AI-powered web application designed to help developers prepare for 
         cd client
         npm install
     3️⃣ Setup environment variables
-    
         Create a .env file in the server folder:
             PORT=5000
             MONGO_URI=your_mongodb_connection
