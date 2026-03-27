@@ -1,4 +1,4 @@
-🚀 InterviewIQ – AI-Powered Interview Preparation Platform
+🚀 InterPrep – AI-Powered Interview Preparation Platform
 
 A full-stack AI-powered web application designed to help developers prepare for technical interviews. The platform analyzes user input and generates personalized interview questions using AI, enabling effective and targeted practice.
 
@@ -58,7 +58,7 @@ A full-stack AI-powered web application designed to help developers prepare for 
 
 ⚙️ Installation & Setup
         1️⃣ Clone the repository
-            git clone https://github.com/your-username/interviewiq.git
+            git clone https://github.com/ShouryaSaran/InterPrep.git
         cd interviewPrep
         2️⃣ Install dependencies
             For backend:
